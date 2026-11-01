@@ -240,23 +240,17 @@ function AiSignalsContent() {
         >
           <div className="space-y-3">
             <p className="text-xs text-gray-600">
-              Ghi chú về việc trao đổi trực tiếp với sinh viên về nội dung văn bản:
+              Ghi chú về việc trao đổi trực tiếp với sinh viên về nội dung báo cáo:
             </p>
             <textarea
               rows={4}
               value={teacherNote}
               onChange={(e) => setTeacherNote(e.target.value)}
-              placeholder="VD: Đã phỏng vấn nhóm sinh viên về phương pháp luận tại trang 8, sinh viên nắm vững bản chất thuật toán..."
+              placeholder="VD: Đã trao đổi với nhóm sinh viên về nội dung tại trang 8, sinh viên nắm vững thuật toán..."
               className="w-full px-3 py-2 border border-gray-200 rounded-lg text-xs"
             />
           </div>
         </Modal>
-
-        {/* Mockup footer indicator */}
-        <div className="flex justify-between items-center text-[10px] text-gray-400 pt-4 uppercase tracking-widest font-mono">
-          <span>GRADEFOLIO / PROPOSAL V2</span>
-          <span>MOCKUP 07 / 07</span>
-        </div>
       </div>
     </div>
   );

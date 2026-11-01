@@ -371,12 +371,6 @@ function EvaluationSummaryContent() {
             />
           </div>
         </Modal>
-
-        {/* Mockup footer indicator */}
-        <div className="flex justify-between items-center text-[10px] text-gray-400 pt-4 uppercase tracking-widest font-mono">
-          <span>GRADEFOLIO / PROPOSAL V2</span>
-          <span>MOCKUP 04 / 07</span>
-        </div>
       </div>
     </div>
   );

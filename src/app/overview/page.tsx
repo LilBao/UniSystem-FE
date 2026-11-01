@@ -226,18 +226,12 @@ export default function OverviewPage() {
           <Info className="w-5 h-5 text-[#0F5B46] shrink-0 mt-0.5" />
           <div className="text-xs">
             <span className="font-semibold text-gray-900 block">
-              Điểm có thể truy vết đến bằng chứng.
+              Mọi điểm số đều đi kèm minh chứng rõ ràng.
             </span>
             <span className="text-gray-600 mt-0.5 block">
-              Tín hiệu văn bản AI được báo cáo riêng và không tự động làm thay đổi điểm học thuật.
+              Kết quả kiểm tra văn bản AI chỉ mang tính chất tham khảo và không tự động làm thay đổi điểm số của sinh viên.
             </span>
           </div>
-        </div>
-
-        {/* Mockup footer indicator */}
-        <div className="flex justify-between items-center text-[10px] text-gray-400 pt-4 uppercase tracking-widest font-mono">
-          <span>GRADEFOLIO / PROPOSAL V2</span>
-          <span>MOCKUP 01 / 07</span>
         </div>
       </div>
     </div>
