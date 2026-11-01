@@ -9,7 +9,7 @@ export type BadgeVariant =
   | 'extracted'; // Light green for code audit
 
 interface BadgeProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   variant?: BadgeVariant;
   className?: string;
   size?: 'sm' | 'md';
@@ -21,6 +21,9 @@ export const Badge: React.FC<BadgeProps> = ({
   className = '',
   size = 'md',
 }) => {
+  if (children === undefined || children === null || children === '') {
+    return null;
+  }
   const variantStyles: Record<BadgeVariant, string> = {
     success: 'bg-[#DCFCE7] text-[#15803D] border-[#BBF7D0]',
     warning: 'bg-[#FEF3C7] text-[#B45309] border-[#FDE68A]',
